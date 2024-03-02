@@ -24,3 +24,8 @@ let obj = {
 }
 
 obj.myFunc(); // This is a limitation of the arrow fumction as it only refer to the objects within it's scope and it does not have num in it.
+
+// More example of the arrow function.
+const start = (x, y) => x+y
+const output = start(12, 13)
+console.log(output)
