@@ -19,3 +19,10 @@ function myFunction(item){
   console.log(item);
 }
 
+const under_five = x => x < 5;
+if(array.every(under_five)){
+  console.log("All are under 5")
+}
+else{
+  console.log("Atleast one element is under less than 5")
+}
